@@ -23,7 +23,7 @@ github_username:  kclinden
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
