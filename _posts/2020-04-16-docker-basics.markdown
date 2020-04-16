@@ -142,4 +142,4 @@ docker rmi $(docker images -a -q)
 
 # References
 * Docker Getting Started - https://docs.docker.com/get-started/overview/
-* Demo Static Web Page - https://github.com/168cyber/cyber-happy-hour/blob/master/files/index.html
+* Demo Static Web Page - https://raw.githubusercontent.com/168cyber/168cyber.github.io/master/files/docker-basics/index.html
