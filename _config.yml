@@ -19,7 +19,7 @@ title: 168 Cyber
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "168cyber.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-#github_username:  jekyll
+github_username:  168cyber
 
 # Build settings
 markdown: kramdown
