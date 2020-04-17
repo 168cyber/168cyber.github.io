@@ -36,7 +36,7 @@ tags: ['Docker']
 Download the correct version of Docker Desktop for your system.  
 `https://docs.docker.com/get-docker/`  
 
-*If you have a Mac checkout installing it via HomeBrew! Windows can use Chocoately to do the same thing.*   
+*If you have a Mac checkout installing it via HomeBrew! Windows can use Chocolatey to do the same thing.*   
 
 
 ### Docker Architecture
@@ -62,7 +62,7 @@ docker image pull centos
 ```
 
 ### Run a container interactively  
-We can *run* a container and interact with it by specicfing the command to execute. What do you think the *-it* parmeter does? Check the help by running *docker run --help*.  
+We can *run* a container and interact with it by specifying the command to execute. What do you think the *-it* parmeter does? Check the help by running *docker run --help*.  
 *Note: Try typing "hostname" or "ip address"; Type "exit" to quit.*  
 ```
 docker run -it centos /bin/bash
@@ -83,7 +83,7 @@ docker ps -a
 ```
 
 ### Connect to a running container
-If you need to troubleshoot something inside of a container you can invoke a process inside of it. Lets start a container that runs a web server, and then open up a terminal to it through a second command.
+If you need to troubleshoot something inside of a container you can invoke a process inside of it. Start a container that runs a web server, and then open up a terminal to it through a second command.
 ```bash
 #Run an nginx container
 docker run -d --name web1 nginx
@@ -99,7 +99,7 @@ exit
 ### Deploy a basic web server
 Lets now access our application by exposing the port that it is listening on by using the *-P* parameter.   
 ```bash  
-#Runt he container and expose all ports
+#Run the container and expose all ports
 docker run -d -P --name  web2 nginx
 
 #Identify the port and connect through a browser via http:#localhost:<port>
@@ -159,6 +159,6 @@ docker rmi $(docker images -a -q)
 # References
 * [Docker Getting Started](https://docs.docker.com/get-started/overview/)
 * [Demo Static Web Page](https://raw.githubusercontent.com/168cyber/168cyber.github.io/master/files/docker-basics/index.html)
-* [Katacoda Docker Palyground](https://www.katacoda.com/courses/docker/playground)
+* [Katacoda Docker Playground](https://www.katacoda.com/courses/docker/playground)
 * [Web-based Docker Environment](https://labs.play-with-docker.com/)
 * [KodeKloud - Docker For the Absolute Beginner Course](https://kodekloud.com/p/docker-for-the-absolute-beginner-hands-on)
