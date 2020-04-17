@@ -1,16 +1,32 @@
 ---
 layout: post
 title:  "Docker Basics"
-date:   2020-04-16 16:00:00 -0500
-categories: Docker
+date:   2020-04-17 05:00:00 -0500
+categories: ['Docker', 'Basics', 'Cloud Native']
+tags: ['Docker']
 ---
 # April 17th 2020
 * * *
-# Agenda
-* Docker Basics
-  * Installing Docker
-  * Basic Docker Commands
-  * Deploy a Basic Application
+# Content
+- [Docker Basics](#docker-basics)
+  * [Install Docker](#install-docker)
+    + [Install for Docker Desktop for Windows or Mac](#install-for-docker-desktop-for-windows-or-mac)
+    + [Docker Architecture](#docker-architecture)
+    + [Docker Engine](#docker-engine)
+    + [Docker Registries / Docker Hub](#docker-registries---docker-hub)
+  * [Basic Docker Commands](#basic-docker-commands)
+    + [Download an image from Docker Hub](#download-an-image-from-docker-hub)
+    + [Run a container interactively](#run-a-container-interactively)
+    + [Run a container non-interactively (Detached)](#run-a-container-non-interactively--detached-)
+    + [List all containers](#list-all-containers)
+    + [Connect to a running container](#connect-to-a-running-container)
+    + [Deploy a basic web server](#deploy-a-basic-web-server)
+    + [Mount a folder to your container](#mount-a-folder-to-your-container)
+    + [Stop and Delete a running or stopped container](#stop-and-delete-a-running-or-stopped-container)
+    + [Other Commands](#other-commands)
+- [Bonus](#bonus)
+  * [Homebrew](#homebrew)
+- [References](#references)
 
 # Docker Basics
 
@@ -141,5 +157,8 @@ docker rmi $(docker images -a -q)
 * * *
 
 # References
-* Docker Getting Started - https://docs.docker.com/get-started/overview/
-* Demo Static Web Page - https://raw.githubusercontent.com/168cyber/168cyber.github.io/master/files/docker-basics/index.html
+* [Docker Getting Started](https://docs.docker.com/get-started/overview/)
+* [Demo Static Web Page](https://raw.githubusercontent.com/168cyber/168cyber.github.io/master/files/docker-basics/index.html)
+* [Katacoda Docker Palyground](https://www.katacoda.com/courses/docker/playground)
+* [Web-based Docker Environment](https://labs.play-with-docker.com/)
+* [KodeKloud - Docker For the Absolute Beginner Course](https://kodekloud.com/p/docker-for-the-absolute-beginner-hands-on)
