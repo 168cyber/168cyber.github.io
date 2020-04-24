@@ -2,8 +2,8 @@
 layout: post
 title:  "Ride The ELK"
 date:   2020-04-24 05:00:00 -0500
-categories: ['Elasticsearch', 'Logstash', 'Kibana', 'Basics',]
-tags: ['ELK']
+categories: ['ELK']
+tags: ['ELK', 'Logstash', 'Kibana', 'Basics']
 ---
 # April 24th 2020
 * * *

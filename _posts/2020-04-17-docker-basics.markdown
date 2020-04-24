@@ -2,8 +2,8 @@
 layout: post
 title:  "Docker Basics"
 date:   2020-04-17 05:00:00 -0500
-categories: ['Docker', 'Basics', 'Cloud Native']
-tags: ['Docker']
+categories: ['Docker']
+tags: ['Docker', 'Cloud Native']
 ---
 # April 17th 2020
 * * *
