@@ -1,0 +1,11 @@
+{
+	"mappings" : {
+		"properties" : {
+			"my_address" : { "type": "keyword" },
+			"work_address" : { "type": "keyword" },
+			"times_mobilized" : { "type" : "integer" },
+			"things_i_do" : { "type" : "keyword" },
+			"my_ip" : { "type" : "ip" }
+		}
+	}
+}

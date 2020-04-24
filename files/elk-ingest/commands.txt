@@ -1,0 +1,12 @@
+# Ping Elasticsearch to see if it is up
+curl -XGET localhost:9200
+
+# Push mapping to elasticsearch directly
+curl -H "Content-Type: application/json" -XPUT 127.0.0.1:9200/test --data-binar @test-mapping.json
+
+# See if your mapping took
+curl -XGET localhost:9200/test/_mapping
+
+# Push json messages to elasticsearch directly
+curl -H "Content-Type: application/json" -XPUT '127.0.0.1:9200/test/_bulk' --data-binary @test.json
+

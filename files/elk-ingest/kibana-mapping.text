@@ -1,0 +1,70 @@
+PUT test 
+{
+    "mappings" : {
+      "properties" : {
+        "country" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "ip_org" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "loc" : {
+          "type" : "geo_point"
+        },
+        "my_address" : {
+          "type" : "keyword"
+        },
+        "my_city" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "my_ip" : {
+          "type" : "ip"
+        },
+        "my_state" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "things_i_do" : {
+          "type" : "keyword"
+        },
+        "times_mobilized" : {
+          "type" : "integer"
+        },
+        "what_i_do" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "work_address" : {
+          "type" : "keyword"
+        }
+      }
+	}
+}
