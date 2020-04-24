@@ -24,26 +24,37 @@ tags: ['ELK']
 ## Install Docker & Docker-Compose
 
 **Install for Docker Desktop for Windows or Mac**  
-`https://docs.docker.com/get-docker/`
+[https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 
 **Docker-Compose**
-`$ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-`$ sudo chmod +x /usr/local/bin/docker-compose`
-`$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose`
+```bash
+$ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+$ sudo chmod +x /usr/local/bin/docker-compose
+$ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
 
 **Git Clone the repo files**
-`git clone https://github.com/168cyber/168cyber.github.io.git`
-*This will have all the config files and commands referenced in the chat*
+```bash
+$ git clone https://github.com/168cyber/168cyber.github.io.git
+#This will have all the config files and commands referenced in the chat
+```
 
 **Grab Container**
-`$ sudo docker pull sebp/elk`
+```bash
+$ sudo docker pull sebp/elk
+```
 
 **Give ELK Docker Additional Memory**
-`sudo sysctl -w vm.max_map_count=262144`
+```bash
+# This is the most common reason the ELK docker doesnt start 
+$ sudo sysctl -w vm.max_map_count=262144
+```
 
 **Finally Spin up the ELK Docker**
-`$ sudo docker-compose up elk-test` (*ensure you're in the right directory to grab the docker-compose.yml file*)
-
+```bash
+$ sudo docker-compose up elk-test
+# Ensure you're in the right directory to grab the docker-compose.yml file
+```
 
 
 # References
