@@ -6,4 +6,4 @@ elk-test:
     - "5044:5044" 
     - "31311:31311" 
   volumes: 
-    - '/home/jazhans/git/168cyber.github.io/files/elk-ingest/logstash-input.conf:/etc/logstash/conf.d/03-input.conf'
+    - './logstash-input.conf:/etc/logstash/conf.d/03-input.conf'
