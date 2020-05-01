@@ -119,7 +119,7 @@ For simplicity I will use Chef's Learn Inspec Environment
 `inspec exec auditd -t ssh://root:password@target`  
 10. Change the output to json  
 `inspec exec auditd -t ssh://root:password@target --reporter=json | jq .`
-11. Run a more complex profile directly from GitHub
+11. Run a more complex profile directly from GitHub  
 `inspec exec https://github.com/dev-sec/linux-baseline.git -t ssh://root:password@target` 
 
 # Other Links
