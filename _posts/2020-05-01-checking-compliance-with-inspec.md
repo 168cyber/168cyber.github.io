@@ -126,4 +126,5 @@ For simplicity I will use Chef's Learn Inspec Environment
 [Inspec](https://www.inspec.io)  
 [Try Inspec](https://learn.chef.io/modules/try-inspec#/)  
 [Dev-Sec](https://www.dev-sec.io)  
-[MITRE GitHub](https://www.github.com/mitre) 
+[MITRE GitHub](https://www.github.com/mitre)  
+[MITRE Training](https://mitre-inspec-developer.netlify.app/course/)
